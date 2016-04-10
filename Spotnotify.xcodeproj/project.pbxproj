@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		830E70BC1CBA08D100C33AE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830E70BB1CBA08D100C33AE6 /* AppDelegate.swift */; };
+		830E70BE1CBA08D100C33AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 830E70BD1CBA08D100C33AE6 /* Assets.xcassets */; };
+		830E70C11CBA08D200C33AE6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 830E70BF1CBA08D200C33AE6 /* MainMenu.xib */; };
+		830E70CC1CBA08D200C33AE6 /* SpotnotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830E70CB1CBA08D200C33AE6 /* SpotnotifyTests.swift */; };
+		830E70D71CBA08D200C33AE6 /* SpotnotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830E70D61CBA08D200C33AE6 /* SpotnotifyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		830E70C81CBA08D200C33AE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 830E70B01CBA08D100C33AE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 830E70B71CBA08D100C33AE6;
+			remoteInfo = Spotnotify;
+		};
+		830E70D31CBA08D200C33AE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 830E70B01CBA08D100C33AE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 830E70B71CBA08D100C33AE6;
+			remoteInfo = Spotnotify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		830E70B81CBA08D100C33AE6 /* Spotnotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotnotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		830E70BB1CBA08D100C33AE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		830E70BD1CBA08D100C33AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		830E70C01CBA08D200C33AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		830E70C21CBA08D200C33AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830E70C71CBA08D200C33AE6 /* SpotnotifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotnotifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		830E70CB1CBA08D200C33AE6 /* SpotnotifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotnotifyTests.swift; sourceTree = "<group>"; };
+		830E70CD1CBA08D200C33AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830E70D21CBA08D200C33AE6 /* SpotnotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotnotifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		830E70D61CBA08D200C33AE6 /* SpotnotifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotnotifyUITests.swift; sourceTree = "<group>"; };
+		830E70D81CBA08D200C33AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		830E70B51CBA08D100C33AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830E70C41CBA08D200C33AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830E70CF1CBA08D200C33AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		830E70AF1CBA08D100C33AE6 = {
+			isa = PBXGroup;
+			children = (
+				830E70BA1CBA08D100C33AE6 /* Spotnotify */,
+				830E70CA1CBA08D200C33AE6 /* SpotnotifyTests */,
+				830E70D51CBA08D200C33AE6 /* SpotnotifyUITests */,
+				830E70B91CBA08D100C33AE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		830E70B91CBA08D100C33AE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				830E70B81CBA08D100C33AE6 /* Spotnotify.app */,
+				830E70C71CBA08D200C33AE6 /* SpotnotifyTests.xctest */,
+				830E70D21CBA08D200C33AE6 /* SpotnotifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		830E70BA1CBA08D100C33AE6 /* Spotnotify */ = {
+			isa = PBXGroup;
+			children = (
+				830E70BB1CBA08D100C33AE6 /* AppDelegate.swift */,
+				830E70BD1CBA08D100C33AE6 /* Assets.xcassets */,
+				830E70BF1CBA08D200C33AE6 /* MainMenu.xib */,
+				830E70C21CBA08D200C33AE6 /* Info.plist */,
+			);
+			path = Spotnotify;
+			sourceTree = "<group>";
+		};
+		830E70CA1CBA08D200C33AE6 /* SpotnotifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				830E70CB1CBA08D200C33AE6 /* SpotnotifyTests.swift */,
+				830E70CD1CBA08D200C33AE6 /* Info.plist */,
+			);
+			path = SpotnotifyTests;
+			sourceTree = "<group>";
+		};
+		830E70D51CBA08D200C33AE6 /* SpotnotifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				830E70D61CBA08D200C33AE6 /* SpotnotifyUITests.swift */,
+				830E70D81CBA08D200C33AE6 /* Info.plist */,
+			);
+			path = SpotnotifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		830E70B71CBA08D100C33AE6 /* Spotnotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830E70DB1CBA08D200C33AE6 /* Build configuration list for PBXNativeTarget "Spotnotify" */;
+			buildPhases = (
+				830E70B41CBA08D100C33AE6 /* Sources */,
+				830E70B51CBA08D100C33AE6 /* Frameworks */,
+				830E70B61CBA08D100C33AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spotnotify;
+			productName = Spotnotify;
+			productReference = 830E70B81CBA08D100C33AE6 /* Spotnotify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		830E70C61CBA08D200C33AE6 /* SpotnotifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830E70DE1CBA08D200C33AE6 /* Build configuration list for PBXNativeTarget "SpotnotifyTests" */;
+			buildPhases = (
+				830E70C31CBA08D200C33AE6 /* Sources */,
+				830E70C41CBA08D200C33AE6 /* Frameworks */,
+				830E70C51CBA08D200C33AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				830E70C91CBA08D200C33AE6 /* PBXTargetDependency */,
+			);
+			name = SpotnotifyTests;
+			productName = SpotnotifyTests;
+			productReference = 830E70C71CBA08D200C33AE6 /* SpotnotifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		830E70D11CBA08D200C33AE6 /* SpotnotifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830E70E11CBA08D200C33AE6 /* Build configuration list for PBXNativeTarget "SpotnotifyUITests" */;
+			buildPhases = (
+				830E70CE1CBA08D200C33AE6 /* Sources */,
+				830E70CF1CBA08D200C33AE6 /* Frameworks */,
+				830E70D01CBA08D200C33AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				830E70D41CBA08D200C33AE6 /* PBXTargetDependency */,
+			);
+			name = SpotnotifyUITests;
+			productName = SpotnotifyUITests;
+			productReference = 830E70D21CBA08D200C33AE6 /* SpotnotifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		830E70B01CBA08D100C33AE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Chris Cho";
+				TargetAttributes = {
+					830E70B71CBA08D100C33AE6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					830E70C61CBA08D200C33AE6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 830E70B71CBA08D100C33AE6;
+					};
+					830E70D11CBA08D200C33AE6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 830E70B71CBA08D100C33AE6;
+					};
+				};
+			};
+			buildConfigurationList = 830E70B31CBA08D100C33AE6 /* Build configuration list for PBXProject "Spotnotify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 830E70AF1CBA08D100C33AE6;
+			productRefGroup = 830E70B91CBA08D100C33AE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				830E70B71CBA08D100C33AE6 /* Spotnotify */,
+				830E70C61CBA08D200C33AE6 /* SpotnotifyTests */,
+				830E70D11CBA08D200C33AE6 /* SpotnotifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		830E70B61CBA08D100C33AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830E70BE1CBA08D100C33AE6 /* Assets.xcassets in Resources */,
+				830E70C11CBA08D200C33AE6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830E70C51CBA08D200C33AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830E70D01CBA08D200C33AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		830E70B41CBA08D100C33AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830E70BC1CBA08D100C33AE6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830E70C31CBA08D200C33AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830E70CC1CBA08D200C33AE6 /* SpotnotifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830E70CE1CBA08D200C33AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830E70D71CBA08D200C33AE6 /* SpotnotifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		830E70C91CBA08D200C33AE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 830E70B71CBA08D100C33AE6 /* Spotnotify */;
+			targetProxy = 830E70C81CBA08D200C33AE6 /* PBXContainerItemProxy */;
+		};
+		830E70D41CBA08D200C33AE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 830E70B71CBA08D100C33AE6 /* Spotnotify */;
+			targetProxy = 830E70D31CBA08D200C33AE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		830E70BF1CBA08D200C33AE6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				830E70C01CBA08D200C33AE6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		830E70D91CBA08D200C33AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		830E70DA1CBA08D200C33AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		830E70DC1CBA08D200C33AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Spotnotify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cho.chris.Spotnotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		830E70DD1CBA08D200C33AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Spotnotify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cho.chris.Spotnotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		830E70DF1CBA08D200C33AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpotnotifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cho.chris.SpotnotifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spotnotify.app/Contents/MacOS/Spotnotify";
+			};
+			name = Debug;
+		};
+		830E70E01CBA08D200C33AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpotnotifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cho.chris.SpotnotifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spotnotify.app/Contents/MacOS/Spotnotify";
+			};
+			name = Release;
+		};
+		830E70E21CBA08D200C33AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpotnotifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cho.chris.SpotnotifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Spotnotify;
+			};
+			name = Debug;
+		};
+		830E70E31CBA08D200C33AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpotnotifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cho.chris.SpotnotifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Spotnotify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		830E70B31CBA08D100C33AE6 /* Build configuration list for PBXProject "Spotnotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830E70D91CBA08D200C33AE6 /* Debug */,
+				830E70DA1CBA08D200C33AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		830E70DB1CBA08D200C33AE6 /* Build configuration list for PBXNativeTarget "Spotnotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830E70DC1CBA08D200C33AE6 /* Debug */,
+				830E70DD1CBA08D200C33AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		830E70DE1CBA08D200C33AE6 /* Build configuration list for PBXNativeTarget "SpotnotifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830E70DF1CBA08D200C33AE6 /* Debug */,
+				830E70E01CBA08D200C33AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		830E70E11CBA08D200C33AE6 /* Build configuration list for PBXNativeTarget "SpotnotifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830E70E21CBA08D200C33AE6 /* Debug */,
+				830E70E31CBA08D200C33AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 830E70B01CBA08D100C33AE6 /* Project object */;
+}
