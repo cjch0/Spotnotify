@@ -12,6 +12,8 @@
 		830E70C11CBA08D200C33AE6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 830E70BF1CBA08D200C33AE6 /* MainMenu.xib */; };
 		830E70CC1CBA08D200C33AE6 /* SpotnotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830E70CB1CBA08D200C33AE6 /* SpotnotifyTests.swift */; };
 		830E70D71CBA08D200C33AE6 /* SpotnotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830E70D61CBA08D200C33AE6 /* SpotnotifyUITests.swift */; };
+		830E70EB1CBE121200C33AE6 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830E70EA1CBE121200C33AE6 /* NotificationController.swift */; };
+		830E70ED1CBE186600C33AE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830E70EC1CBE186600C33AE6 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		830E70D21CBA08D200C33AE6 /* SpotnotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotnotifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		830E70D61CBA08D200C33AE6 /* SpotnotifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotnotifyUITests.swift; sourceTree = "<group>"; };
 		830E70D81CBA08D200C33AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830E70EA1CBE121200C33AE6 /* NotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		830E70EC1CBE186600C33AE6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				830E70BB1CBA08D100C33AE6 /* AppDelegate.swift */,
+				830E70EC1CBE186600C33AE6 /* ViewController.swift */,
+				830E70EA1CBE121200C33AE6 /* NotificationController.swift */,
 				830E70BD1CBA08D100C33AE6 /* Assets.xcassets */,
 				830E70BF1CBA08D200C33AE6 /* MainMenu.xib */,
 				830E70C21CBA08D200C33AE6 /* Info.plist */,
@@ -249,7 +255,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				830E70ED1CBE186600C33AE6 /* ViewController.swift in Sources */,
 				830E70BC1CBA08D100C33AE6 /* AppDelegate.swift in Sources */,
+				830E70EB1CBE121200C33AE6 /* NotificationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
