@@ -33,7 +33,7 @@
 
 /* Begin PBXFileReference section */
 		830E70B81CBA08D100C33AE6 /* Spotnotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotnotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		830E70BB1CBA08D100C33AE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		830E70BB1CBA08D100C33AE6 /* AppDelegate.swift */ = {isa = PBXFileReference; indentWidth = 3; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		830E70BD1CBA08D100C33AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		830E70C01CBA08D200C33AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		830E70C21CBA08D200C33AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -471,6 +471,7 @@
 				830E70DD1CBA08D200C33AE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		830E70DE1CBA08D200C33AE6 /* Build configuration list for PBXNativeTarget "SpotnotifyTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +480,7 @@
 				830E70E01CBA08D200C33AE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		830E70E11CBA08D200C33AE6 /* Build configuration list for PBXNativeTarget "SpotnotifyUITests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +489,7 @@
 				830E70E31CBA08D200C33AE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
