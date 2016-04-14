@@ -101,6 +101,7 @@ class ViewController: NSObject {
                         let artworkLocation = albumImages[2]["url"] as? String else {
                             return callback(nil)
                     }
+                    
                     let artwork = NSImage(contentsOfURL: NSURL(string: artworkLocation)!)
                     
                     callback(artwork)
@@ -135,10 +136,10 @@ class ViewController: NSObject {
                         getAlbumArtwork(trackId, callback: {
                             img in
                             let trackArtwork = img
-                            self.notificationDelegate.notify(trackTitle!, subtitle: trackArtist!, informativeText: trackAlbum!, contentImage: trackArtwork)
+                            self.notificationDelegate.notify(trackTitle!, artistName: trackArtist!, albumName: trackAlbum!, albumArt: trackArtwork)
                         })
                     } else {
-                        notificationDelegate.notify(trackTitle!, subtitle: trackArtist!, informativeText: trackAlbum!, contentImage: nil)
+                        notificationDelegate.notify(trackTitle!, artistName: trackArtist!, albumName: trackAlbum!, albumArt: nil)
                     }
                 }
             }

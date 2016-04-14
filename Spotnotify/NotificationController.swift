@@ -10,13 +10,16 @@ import Cocoa
 
 class NotificationController: NSObject, NSUserNotificationCenterDelegate {
     
-    func notify(title: String, subtitle: String, informativeText: String, contentImage: NSImage?) {
+    func notify(trackName: String, artistName: String, albumName: String, albumArt: NSImage?) {
         let notification:NSUserNotification = NSUserNotification()
-        notification.title = title
-        notification.subtitle = subtitle
-        notification.informativeText = informativeText
-        notification.contentImage = contentImage
-
+        notification.title = trackName
+        notification.subtitle = artistName + " - " + albumName
+//        notification.contentImage = albumArt
+        
+        // private
+        notification.setValue(albumArt, forKey: "_identityImage")
+        notification.setValue(false, forKey: "_identityImageHasBorder")
+        
         NSUserNotificationCenter.defaultUserNotificationCenter().deliverNotification(notification)
     }
     

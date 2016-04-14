@@ -49,6 +49,7 @@
 		830E70EA1CBE121200C33AE6 /* NotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		830E70EC1CBE186600C33AE6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8317E59D1CBF26C200864629 /* LaunchStarter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchStarter.swift; sourceTree = "<group>"; };
+		8317E5A11CBF3A1000864629 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Bridge.h; path = ../Bridge.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				830E70BB1CBA08D100C33AE6 /* AppDelegate.swift */,
+				8317E5A11CBF3A1000864629 /* Bridge.h */,
 				830E70EC1CBE186600C33AE6 /* ViewController.swift */,
 				830E70EA1CBE121200C33AE6 /* NotificationController.swift */,
 				830E70BD1CBA08D100C33AE6 /* Assets.xcassets */,
