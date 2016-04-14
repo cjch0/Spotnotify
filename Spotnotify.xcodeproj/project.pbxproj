@@ -14,6 +14,7 @@
 		830E70D71CBA08D200C33AE6 /* SpotnotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830E70D61CBA08D200C33AE6 /* SpotnotifyUITests.swift */; };
 		830E70EB1CBE121200C33AE6 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830E70EA1CBE121200C33AE6 /* NotificationController.swift */; };
 		830E70ED1CBE186600C33AE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830E70EC1CBE186600C33AE6 /* ViewController.swift */; };
+		8317E59E1CBF26C200864629 /* LaunchStarter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8317E59D1CBF26C200864629 /* LaunchStarter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		830E70D81CBA08D200C33AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		830E70EA1CBE121200C33AE6 /* NotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		830E70EC1CBE186600C33AE6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8317E59D1CBF26C200864629 /* LaunchStarter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchStarter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				830E70BD1CBA08D100C33AE6 /* Assets.xcassets */,
 				830E70BF1CBA08D200C33AE6 /* MainMenu.xib */,
 				830E70C21CBA08D200C33AE6 /* Info.plist */,
+				8317E59D1CBF26C200864629 /* LaunchStarter.swift */,
 			);
 			path = Spotnotify;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					830E70B71CBA08D100C33AE6 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3CWP3YVQE7;
 					};
 					830E70C61CBA08D200C33AE6 = {
 						CreatedOnToolsVersion = 7.3;
@@ -257,6 +261,7 @@
 			files = (
 				830E70ED1CBE186600C33AE6 /* ViewController.swift in Sources */,
 				830E70BC1CBA08D100C33AE6 /* AppDelegate.swift in Sources */,
+				8317E59E1CBF26C200864629 /* LaunchStarter.swift in Sources */,
 				830E70EB1CBE121200C33AE6 /* NotificationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +395,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Spotnotify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -402,6 +408,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Spotnotify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";

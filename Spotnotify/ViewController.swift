@@ -17,9 +17,10 @@ class ViewController: NSObject {
     let userPreferenceMap: [String: String] = [
         "Notification Sound": "notificationSound",
         "Display Album Artwork": "displayAlbumArtwork",
-        "Disable Notifications": "notificationsDisabled"
+        "Disable Notifications": "notificationsDisabled",
+        "Launch on Startup": "launchOnStartup"
     ]
-    
+
     override func awakeFromNib() {
         // set notification delegate
         NSUserNotificationCenter.defaultUserNotificationCenter().delegate = notificationDelegate
@@ -32,18 +33,22 @@ class ViewController: NSObject {
         let menu = NSMenu()
         let menuItem1 = NSMenuItem(title: "Display Album Artwork", action: #selector(toggleUserPreference(_:)), keyEquivalent: "")
         let menuItem2 = NSMenuItem(title: "Disable Notifications", action: #selector(toggleUserPreference(_:)), keyEquivalent: "")
-        let menuItem3 = NSMenuItem(title: "Quit Spotnotify", action: #selector(NSApplication.sharedApplication().terminate(_:)), keyEquivalent: "")
+        let menuItem3 = NSMenuItem(title: "Launch on Startup", action: #selector(toggleUserPreference(_:)), keyEquivalent: "")
+        let menuItem4 = NSMenuItem(title: "Quit Spotnotify", action: #selector(NSApplication.sharedApplication().terminate(_:)), keyEquivalent: "")
         
         menuItem1.state = getUserPreference(userPreferenceMap["Display Album Artwork"]!, fallback: 1)
         menuItem2.state = getUserPreference(userPreferenceMap["Disable Notifications"]!)
+        menuItem3.state = getUserPreference(userPreferenceMap["Launch on Startup"]!)
         
         menuItem1.target = self
         menuItem2.target = self
+        menuItem3.target = self
         
         menu.addItem(menuItem1)
         menu.addItem(menuItem2)
-        menu.addItem(NSMenuItem.separatorItem())
         menu.addItem(menuItem3)
+        menu.addItem(NSMenuItem.separatorItem())
+        menu.addItem(menuItem4)
         
         statusItem.menu = menu
         
@@ -62,6 +67,9 @@ class ViewController: NSObject {
     func setUserPreference(key: String, value: Int) {
         NSUserDefaults.standardUserDefaults().setInteger(value, forKey: key)
         NSUserDefaults.standardUserDefaults().synchronize()
+        if key == "launchOnStartup" {
+            LaunchStarter.toggleLaunchAtStartup(value)
+        }
     }
     
     func toggleUserPreference(sender: NSMenuItem) {
