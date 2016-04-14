@@ -8,5 +8,5 @@ Simply displays a notification when a new song is played
 
 
 TODO:
-- Add launch on startup
-- Look into custom notification icon (private API)
+- Replace deprecated launch starter
+- Investigate custom notification icon (private API)
